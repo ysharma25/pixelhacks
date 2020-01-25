@@ -1,0 +1,48 @@
+h1{
+  text-align:center;
+  position:relative;
+  font-size: 100px;
+  color: #478a0b;
+  font-family: 'Bitter'
+}
+
+h2{
+  text-align:center;
+  position:relative;
+  font-size: 100px;
+  color: #478a0b;
+  font-family: 'Bitter'
+}
+
+h3{
+  text-align:center;
+  position:relative;
+  font-size: 100px;
+  color: #478a0b;
+  font-family: 'Bitter'
+}
+
+h4{
+  position: relative;
+  color: black;
+  padding-top: 10;
+  font-family: 'Oswald';
+  text-align: center;
+  font-size: 30px;
+
+}
+
+p{
+  text-align: center
+}
+
+textarea{
+  text-align: center;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom-color: black;
+  border-bottom-style: double;
+  font-size: 30px;
+  font-family: 'Oswald'
+}
