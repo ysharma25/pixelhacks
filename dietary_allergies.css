@@ -1,0 +1,17 @@
+h1{
+  text-align:center;
+  position:relative;
+  font-size: 100px;
+  padding-top: 200;
+  color: #4780b;
+}
+
+body {
+  font-family: bitter, arial, sans-serif;
+  margin: 2em;
+}
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+}
