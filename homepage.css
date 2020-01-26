@@ -1,5 +1,5 @@
 body{
-  background-image: url(nutrition.png) opacity: 0.5;
+  background-image: url(nutrition.png), opacity: 0.5;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
