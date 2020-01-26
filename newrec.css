@@ -90,47 +90,6 @@ div {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* NAVIGATION BAR CODE */
 
 h3{
@@ -138,7 +97,7 @@ h3{
   position:relative;
   font-size: 30px;
   padding-top: 200;
-  color: cornflowerblue;
+  color: #478a0b;
 }
 select {
   font-size: 60;
