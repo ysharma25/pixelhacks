@@ -16,7 +16,7 @@ h1 {
 
 h1{
   position: relative;
-  color: #478a0b;
+  color: black;
   padding-top: 10;
   font-family: 'Oswald';
   text-align: center;
@@ -40,7 +40,7 @@ p{
 } */
 h4{
   position: center;
-  color: #478a0b;
+  color: black;
   padding-top: 10;
   font-family: 'Oswald';
   text-align: center;
@@ -50,7 +50,7 @@ h4{
 
 h5{
   position: center;
-  color: #478a0b;
+  color: black;
   padding-top: 10;
   font-family: 'Oswald';
   text-align: center;
