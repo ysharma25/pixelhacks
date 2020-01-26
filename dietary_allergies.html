@@ -124,16 +124,34 @@
       <span class="checkmark"></span>
     </label>
   
+  <!-- Health condition checkboxes -->
+    <h class="header">Health Conditions</h>
+
+    <label class="container" value="diabetes" id="diabetes">
+      Diabetes
+      <input type="checkbox" />
+      <span class="checkmark"></span>
+    </label>
+
+    <label class="container" value="glutenfree" id="glutenfree">
+      Gluten Free/Celiac
+      <input type="checkbox" />
+      <span class="checkmark"></span>
+    </label>
+
+    <label class="container" value="lactose" id="lactose">
+      Lactose Intolerant
+      <input type="checkbox" />
+      <span class="checkmark"></span>
+    </label>
+  
     <h4 type="button" id="continue" onclick="window.location.href='homepage.html'">
       Continue
     </h4>
   
   <script>
   function onSubmit() {
-  //var dietary_restrictions = document.getElementById("container");
-  
-  //need to fix saving the data here... something about this next line
-  
+
   var dietary_restrictions = document.getElementsByClass("container");
   alert(dietary_restrictions.length());
   
