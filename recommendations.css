@@ -12,7 +12,8 @@ h1{
 /* Three columns side by side */
 .column {
   float:center;
-  width: 20.3%
+  width: 500;
+  height: 500;
   /* margin-bottom: 16px; */
   padding: 0 8px;
 }
