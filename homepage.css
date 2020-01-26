@@ -1,0 +1,102 @@
+body{
+  background-image: url(nutrition.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 0px 30px;
+
+}
+  h1{
+  text-align:left;
+  position:relative;
+  font-size: 60px;
+  color: black;
+  padding-top: 50px;
+  font-family: 'Bitter'
+}
+
+a{
+  font-size: 50px;
+  color: white;
+  text-decoration: none;
+  font-family: 'Bitter'
+}
+
+/* .topbar{
+  background-color: black;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left: 1px;
+  margin-right: 1px;
+} */
+
+img{
+  height: 10px;
+  vertical-align: middle;
+}
+
+
+/* h2{
+  text-align:left;
+  position:relative;
+  font-size: 30px;
+  color: black;
+} */
+
+h3{
+  font-family: 'Oswald', sans-serif;
+  text-align:left;
+  position:relative;
+  font-size: 100px;
+  color: white;
+  text-decoration: none
+}
+
+h4{
+  font-family: 'Oswald', sans-serif;
+  text-align:left;
+  position:relative;
+  font-size: 50px;
+  color: white;
+}
+
+h5{
+  font-family: 'Oswald', sans-serif;
+  text-align:left;
+  position:relative;
+  font-size: 50px;
+  color: white;
+}
+
+h6{
+  font-family: 'Oswald', sans-serif;
+  text-align:left;
+  position:relative;
+  font-size: 50px;
+  color: white;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: black;
+  overflow: hidden;
+
+}
+
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: lightgrey;
+  color: white;
+}
