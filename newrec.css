@@ -3,14 +3,6 @@
   box-sizing: border-box;
 }
 
-h1{
-  text-align:center;
-  position:relative;
-  font-size: 100px;
-  padding-top: 2px;
-  color: #478a0b;
-  font-style: "Bitter"
-}
 
 /* *, *:before, *:after {
   box-sizing: inherit;
@@ -124,7 +116,7 @@ select {
   }
 
 h1{
-  text-align:left;
+  text-align:center;
   position:relative;
   font-size: 60px;
   color: #478a0b;
