@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="/dietary_allergies.css" />
 
     <!-- import the webpage's javascript file -->
-    <script src="/dietary_allergies.js" defer></script>
+    <!--<script src="/dietary_allergies.js" defer></script>-->
   </head>
   <!-- nutrition info from http://universityevents.harvard.edu/sites/universityevents.harvard.edu/files/FOOD%20RESTRICTIONS%20AND%20ALLERGIES.pdf -->
 
@@ -123,11 +123,36 @@
       <input type="checkbox" />
       <span class="checkmark"></span>
     </label>
-
-    <input type="submit" name="Continue" value="Submit Diet Info" />
-    <h type="button" id="DietInfo" onclick="window.location.href='homepage.html'">
-      Sign Up
-    </h>
-
-    <button href = "homepage.html" onclick="OnSubmit()" type="submit">Continue</button>
+  
+    <h4 type="button" id="continue" onclick="window.location.href='homepage.html'">
+      Continue
+    </h4>
+  
+  <script>
+  function onSubmit() {
+  //var dietary_restrictions = document.getElementById("container");
+  
+  //need to fix saving the data here... something about this next line
+  
+  var dietary_restrictions = document.getElementsByClass("container");
+  alert(dietary_restrictions.length());
+  
+  var user_restrictions = {};
+  var count = 0;
+   
+  for(var i = 0; i < dietary_restrictions.length(); i++) {
+    
+  if(dietary_restrictions[i].isSelected()) { 
+      user_restrictions[count] = dietary_restrictions[i];
+      count++; 
+      }
+  }
+  
+  var str = ""; 
+  for(var i2 = 0; i2 < user_restrictions.length(); i++) {
+     str += user_restrictions[i2];  
+  }
+  alert(str); 
+}
+  </script>
 </html>
