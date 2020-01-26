@@ -15,12 +15,6 @@
   <script src="dietary_allergies.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-  <form
-    name="DietaryForm"
-    action="responses.php"
-    method="post"
-    onsubmit="return validateForm()"
-  >
     <!-- Dietary restriction checkboxes -->
     <label class="container" value="vegan" id="vegan">
       Vegan
@@ -135,6 +129,5 @@
       Sign Up
     </h>
 
-    <button onclick="OnSubmit()" type="submit">Continue</button>
-  </form>
+    <button href = "homepage.html" onclick="OnSubmit()" type="submit">Continue</button>
 </html>
