@@ -1,22 +1,47 @@
-<!DOCTYPE html>
-<html lang = "en" dir = "ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Food API</title>
-    <link rel="stylesheet" href="cons.css">
-    <script src="food_api.js"></script>
-  </head>
 <body>
-  <link href="https://fonts.googleapis.com/css?family=Inconsolata&display=swap" rel="stylesheet">
-  <h1> welcome, let's begin </h1>
-<center>
-  <div>
-    <textarea
-    id = "foodname"
-    rows = "1.5"
-    cols = "20"
-    textalign = "center"
-    placeholder= "enter food name"></textarea>
-    <button onclick="askFood()">Search</button>
-  </div>
+  <a href="dietary_allergies.html">Tell us about your diet!</a>
+  <body></body>
 </body>
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <title>Consilium</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="cons.js"></script>
+    <meta http-equiv="refresh" onclick="parent.location='index.html'" />
+  </head>
+
+  <body>
+    <h1>Tell Us About Your Diet</h1>
+
+    <h2>
+      <!-- <button class="button" type="button" color="green">Login!</button>
+      <p>
+        <button type="button">Sign Up!</button>
+      </p>
+
+      <p></p> -->
+    </h2>
+
+    <h4
+      type="button"
+      id="Login"
+      onclick="getLongLat()"
+      onclick="parent.location='homepage.html'"
+    >
+      Login
+    </h4>
+
+    <h5
+      type="button"
+      id="SignUp"
+     onclick="window.location.href='info.html'"
+        
+        
+    >
+      Sign Up
+    </h5>
+  </body>
+</html>
