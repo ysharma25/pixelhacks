@@ -1,23 +1,140 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
   <head>
     <title>Dietary Restrictions and Allergies Page</title>
     <!-- import the webpage's stylesheet -->
-    <link rel="stylesheet" href="/dietary_allergies.css"> 
-    
+    <link rel="stylesheet" href="/dietary_allergies.css" />
+
     <!-- import the webpage's javascript file -->
     <script src="/dietary_allergies.js" defer></script>
   </head>
-      
-    <div id="content"></div>
-    <table class="table table-striped">
-  <thead>
-    <tr>
-      <th scope="col">Cover</th>
-      <th scope="col">Title</th>
-    </tr>
-  </thead>
-  <tbody>
-  </tbody>
-</table>
+  <!-- nutrition info from http://universityevents.harvard.edu/sites/universityevents.harvard.edu/files/FOOD%20RESTRICTIONS%20AND%20ALLERGIES.pdf -->
+
+  <h class="header">Dietary Restrictions</h>
+
+  <script src="dietary_allergies.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <form
+    name="DietaryForm"
+    action="responses.php"
+    method="post"
+    onsubmit="return validateForm()"
+  >
+    <!-- Dietary restriction checkboxes -->
+    <label class="container" value="vegan" id="vegan">
+      Vegan
+      <input class="container">
+      <span class="checkmark"></span>
+    </label>
+
+    <label class="container" value="ovo" id="ovo">
+      Ovo-Vegetarian
+      <input type="checkbox" />
+      <span class="checkmark"></span>
+    </label>
+
+    <label class="container" value="lacto" id="lacto">
+      Lacto-Vegetarian
+      <input type="checkbox" />
+      <span class="checkmark"></span>
+    </label>
+
+    <label class="container" value="lactoovo" id="lactoovo">
+      Lacto-Ovo Vegetarians
+      <input type="checkbox" />
+      <span class="checkmark"></span>
+    </label>
+
+    <label class="container" value="pescetarian" id="pescetarian">
+      Pescetarian
+      <input type="checkbox" />
+      <span class="checkmark"></span>
+    </label>
+
+    <!-- Food allergy checkboxes -->
+    <h class="header">Allergies</h>
+
+    <label class="container" value="peanut" id="peanut">
+      Peanut
+      <input type="checkbox" />
+      <span class="checkmark"></span>
+    </label>
+
+    <label class="container" value="milk" id="milk">
+      Milk
+      <input type="checkbox" />
+      <span class="checkmark"></span>
+    </label>
+
+    <label class="container" value="egg" id="egg">
+      Egg
+      <input type="checkbox" />
+      <span class="checkmark"></span>
+    </label>
+
+    <label class="container" value="wheat" id="wheat">
+      Wheat
+      <input type="checkbox" />
+      <span class="checkmark"></span>
+    </label>
+
+    <label class="container" value="soy" id="soy">
+      Soy
+      <input type="checkbox" />
+      <span class="checkmark"></span>
+    </label>
+
+    <label class="container" value="fish" id="fish">
+      Fish
+      <input type="checkbox" />
+      <span class="checkmark"></span>
+    </label>
+
+    <label class="container" value="shellfish" id="shellfish">
+      Shellfish
+      <input type="checkbox" />
+      <span class="checkmark"></span>
+    </label>
+
+    <!-- Religious restriction checkboxes -->
+    <h class="header">Religious Restrictions</h>
+
+    <label class="container" value="christian" id="christian">
+      Christian
+      <input type="checkbox" />
+      <span class="checkmark"></span>
+    </label>
+
+    <label class="container" value="judaism" id="judaism">
+      Judaism/Kosher
+      <input type="checkbox" />
+      <span class="checkmark"></span>
+    </label>
+
+    <label class="container" value="muslim" id="muslim">
+      Muslim
+      <input type="checkbox" />
+      <span class="checkmark"></span>
+    </label>
+
+    <label class="container" value="hindu" id="hindu">
+      Hindu
+      <input type="checkbox" />
+      <span class="checkmark"></span>
+    </label>
+
+    <label class="container" value="buddhist" id="buddhist">
+      Buddhist
+      <input type="checkbox" />
+      <span class="checkmark"></span>
+    </label>
+
+    <input type="submit" name="Continue" value="Submit Diet Info" />
+    <h type="button" id="DietInfo" onclick="window.location.href='homepage.html'">
+      Sign Up
+    </h>
+
+    <button onclick="OnSubmit()" type="submit">Continue</button>
+  </form>
 </html>
